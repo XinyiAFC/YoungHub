@@ -4,8 +4,7 @@ import SwiftUI
 struct YoungHubApp: App {
     var body: some Scene {
         WindowGroup {
-            EnhancedArticleListView()
-                .preferredColorScheme(.light)
+            ContentView()
         }
     }
 }
