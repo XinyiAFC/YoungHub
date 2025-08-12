@@ -74,9 +74,24 @@ YoungHub/
 
 ### 🚀 运行方式
 
-1. 在 Xcode 中打开项目
-2. 选择 iOS 设备或模拟器
-3. 点击运行按钮
+#### 方式一：使用完整单文件（推荐）
+1. 打开 `YoungHubComplete.swift` 文件
+2. 在 Xcode 中创建新的 iOS App 项目
+3. 将 `YoungHubComplete.swift` 中的内容替换到你的 ContentView.swift 中
+4. 运行项目即可看到效果
+
+#### 方式二：使用模块化结构
+1. 在 Xcode 中创建新项目
+2. 将 `Sources/YoungHub/` 目录下的文件添加到项目中
+3. 确保正确设置文件的 Target Membership
+4. 运行项目
+
+#### 方式三：Xcode项目
+如果遇到项目文件问题，建议：
+1. 在 Xcode 中创建新的 iOS App 项目，命名为 YoungHub
+2. 将所有 `.swift` 文件拖拽到项目中
+3. 确保 Deployment Target 设置为 iOS 17.0
+4. 运行项目
 
 ### 🎯 用户体验
 
